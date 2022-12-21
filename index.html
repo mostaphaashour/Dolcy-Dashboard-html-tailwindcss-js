@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/out.css" />
+    <link rel="stylesheet" href="scss/main.css" />
+    <!-- <link rel="stylesheet" href="publ.css" /> -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
+    <!-- <link rel="stylesheet" href="../dist/output.css" /> -->
+    <!-- <link rel="stylesheet" href="css/normalize.css" /> -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>Document</title>
+  </head>
+  <body class="text-slate-700 font-bold min-w-[360px] h-[100vh]">
+    <!-- header -->
+    <div class="theme">
+      <div class="bg-bg pb-40 dark:bg-darkbg-dark">
+        <div class="container py-4 flex justify-between items-center">
+          <div class="lef">
+            <h1 class="text-slate-800 dark:text-white font-bold text-3xl">
+              Social Media Dashboard
+            </h1>
+            <span class="text-sm dark:text-white">Total Followers: 23.004</span>
+          </div>
+          <div class="righ">
+            <label for="cb" class="mr-4 cursor-pointer dark:text-slate-400"
+              >Dark Mode</label
+            >
+            <span class="">
+              <input type="checkbox" id="cb" class="checkbox" />
+              <!-- <div class="toggle"></div> -->
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="all dark:bg-darkbg-dark">
+        <div class="container -mt-40 pb-[10px]">
+          <!-- cards -->
+          <div
+            class="cards grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3"
+          >
+            <!-- card -->
+            <div class="card before:bg-sky-500">
+              <div>
+                <i class="fa-brands fa-facebook mr-1 text-facebook"></i>
+                <span class="dark:text-slate-400">@Mostapha</span>
+              </div>
+              <div
+                class="text-slate-800 dark:text-white font-bold text-6xl pt-6"
+              >
+                1987
+              </div>
+              <p
+                class="tracking-[0.3em] font-medium uppercase dark:text-slate-400"
+              >
+                Followers
+              </p>
+              <div class="pt-6 text-green">
+                <i class="fa-solid fa-play -rotate-90"></i> 12 Today
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card before:bg-twitter">
+              <div>
+                <i class="fa-brands fa-twitter mr-1 text-twitter"></i>
+                <span class="dark:text-slate-400">@Mostapha</span>
+              </div>
+              <div
+                class="text-slate-800 dark:text-white font-bold text-6xl pt-6"
+              >
+                1044
+              </div>
+              <p
+                class="tracking-[0.3em] font-medium uppercase dark:text-slate-400"
+              >
+                Followers
+              </p>
+              <div class="pt-6 text-green">
+                <i class="fa-solid fa-play -rotate-90"></i> 99 Today
+              </div>
+            </div>
+            <!-- card -->
+            <div
+              class="card before:bg-gradient-to-r before:from-yellow-500 before:via-purple-500 before:to-pink-600"
+            >
+              <div>
+                <i
+                  class="fa-brands fa-instagram bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-600"
+                ></i>
+                <span class="dark:text-slate-400">@Mostapha</span>
+              </div>
+              <div
+                class="text-slate-800 dark:text-white font-bold text-6xl pt-6"
+              >
+                11K
+              </div>
+              <p
+                class="tracking-[0.3em] font-medium uppercase dark:text-slate-400"
+              >
+                Followers
+              </p>
+              <div class="pt-6 text-green">
+                <i class="fa-solid fa-play -rotate-90 rounded"></i> 1099 Today
+              </div>
+            </div>
+            <!-- card -->
+            <div class="card before:bg-red">
+              <div>
+                <i class="fa-brands fa-youtube mr-1 text-red"></i>
+                <span class="dark:text-slate-400">@Mostapha</span>
+              </div>
+              <div
+                class="text-slate-800 dark:text-white font-bold text-6xl pt-6"
+              >
+                8239
+              </div>
+              <p
+                class="tracking-[0.3em] font-medium uppercase dark:text-slate-400"
+              >
+                SUBSCRIBES
+              </p>
+              <div class="pt-6 text-red">
+                <i class="fa-solid fa-play rotate-90"></i> 144 Today
+              </div>
+            </div>
+          </div>
+          <div
+            class="my-4 text-3xl font-bold text-slate-800 dark:text-slate-400"
+          >
+            OverView -Today
+          </div>
+          <div
+            class="smcards grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-3"
+          >
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Pages Views</p>
+                <i class="fa-brands fa-facebook mr-1 text-facebook"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  87
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 3%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Likes</p>
+                <i class="fa-brands fa-facebook mr-1 text-facebook"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  52
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 2%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">likes</p>
+                <i
+                  class="fa-brands fa-instagram mr-1 bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-600"
+                ></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  5462
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 2257%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Pages Views</p>
+                <i
+                  class="fa-brands fa-instagram mr-1 bg-gradient-to-r from-yellow-500 via-purple-500 to-pink-600"
+                ></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  52K
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 1375%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Retweets</p>
+                <i class="fa-brands fa-twitter mr-1 text-twitter"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  117
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 303%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Likes</p>
+                <i class="fa-brands fa-twitter mr-1 text-twitter"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  507
+                </p>
+                <span class="text-green">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play -rotate-90"></i> 553%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Likes</p>
+                <i class="fa-brands fa-youtube mr-1 text-red"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  107
+                </p>
+                <span class="text-red">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play rotate-90"></i> 19%</span
+                >
+              </div>
+            </div>
+            <!-- card -->
+            <div class="smcard px-4 rounded bg-bg-card dark:bg-darkbg-card">
+              <div class="flex justify-between items-center my-4 text-xl">
+                <p class="text-slate-600 dark:text-slate-400">Total Views</p>
+                <i class="fa-brands fa-youtube mr-1 text-red"></i>
+              </div>
+              <div class="flex justify-between items-center my-4">
+                <p class="font-bold text-3xl text-slate-800 dark:text-white">
+                  1407
+                </p>
+                <span class="text-red">
+                  <!-- transform: rotate(-90deg)-->
+                  <i class="fa-solid fa-play rotate-90"></i> 12%</span
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <script src="js/bootstrap.bundle.min.js"></script> -->
+    <!-- render icon as svg icon -->
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
+<!-- npx tailwindcss -i ./project/css/style.css -o ./project/css/out.css --watch -->
